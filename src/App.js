@@ -13,10 +13,10 @@ function App() {
     <div>
     <Router>
       <Routes>
-        <Route exact path = "/" element={<Home/>}/>
-        <Route exact path = "/about" element={<About/>}/>  
-        <Route exact path = "/catalog" element={<Catalog/>}/>  
-        <Route path="/search" element={<SearchResults />} />
+        <Route exact path = "/PIUG/" element={<Home/>}/>
+        <Route exact path = "/PIUG/about" element={<About/>}/>  
+        <Route exact path = "/PIUG/catalog" element={<Catalog/>}/>  
+        <Route path="/PIUG/search" element={<SearchResults />} />
       </Routes>
     </Router>
     </div>

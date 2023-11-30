@@ -30,9 +30,9 @@ function NavigationBar() {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '50px' }} navbarScroll>
-              <Nav.Link onClick={() => history('/')}>Home</Nav.Link>
-              <Nav.Link onClick={() => history('/about')}>Contact</Nav.Link>
-              <Nav.Link onClick={() => history('/catalog')}>Catalog</Nav.Link>
+              <Nav.Link onClick={() => history('/PIUG/')}>Home</Nav.Link>
+              <Nav.Link onClick={() => history('/PIUG/about')}>Contact</Nav.Link>
+              <Nav.Link onClick={() => history('/PIUG/catalog')}>Catalog</Nav.Link>
               <Button>
                 <DarkModeToggle />
               </Button>
