@@ -7,8 +7,16 @@ import NavBar from "./Components/NavigationBar"
 import About from "./Pages/About";
 import Catalog from "./Pages/Catalog";
 import SearchResults from "./Pages/SearchResults";
+import ReactGA from 'react-ga';
+import React, {useEffect } from 'react';
+
+const TRACKING_ID = "G-EMD4KJJZJB"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
   return (
     <div>
     <Router>
