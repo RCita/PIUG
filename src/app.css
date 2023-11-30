@@ -1,0 +1,6 @@
+sliderimg{
+width: 100%;
+border-radius: 15px; /* Add rounded corners */
+display: block;
+margin: 0 auto; /* Center the images */
+}
