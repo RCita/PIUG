@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/PIUG/static/css/main.4c7d41e3.css",
+    "main.js": "/PIUG/static/js/main.8727d09a.js",
+    "static/media/image3.jpg": "/PIUG/static/media/image3.19bec9fb8306292dbb77.jpg",
+    "static/media/image2.jpg": "/PIUG/static/media/image2.01800396e1064fd623f6.jpg",
+    "static/media/image4.jpg": "/PIUG/static/media/image4.c513a7eafc571c0b8d2e.jpg",
+    "static/media/image5.jpg": "/PIUG/static/media/image5.731847718feff4584691.jpg",
+    "static/media/image1.jpg": "/PIUG/static/media/image1.6144893fd2e6c98b979a.jpg",
+    "index.html": "/PIUG/index.html",
+    "main.4c7d41e3.css.map": "/PIUG/static/css/main.4c7d41e3.css.map",
+    "main.8727d09a.js.map": "/PIUG/static/js/main.8727d09a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c7d41e3.css",
+    "static/js/main.8727d09a.js"
+  ]
+}
